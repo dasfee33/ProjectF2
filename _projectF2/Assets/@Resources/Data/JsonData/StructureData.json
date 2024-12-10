@@ -1,0 +1,172 @@
+{
+  "structures": [
+    {
+      "DataId": 100,
+      "Name": "Toilet",
+      "DescriptionTextID": "위생적이지 않은 화장실",
+      "Label": "Structure",
+      "type": "Pipe",
+      "subType": "Toilet",
+      "Sprite": "toiletSprite",
+      "maxHp": 100.0,
+      "WorkTime": 5.0,
+      "BuildTime": 60.0,
+      "Idle": "door1-closing",
+      "WorkStart": "door1-opening",
+      "Work": "door1-closing",
+      "WorkEnd": "door1-opening",
+      "buildItemId": [
+        400000
+      ],
+      "buildItemMass": [
+        10.0
+      ],
+      "supplyItemid": null,
+      "supplyItemMass": null,
+      "maxCapacity": 0.0,
+      "extraCellX": 0,
+      "extraCellY": 0,
+      "option": 0
+    },
+    {
+      "DataId": 101,
+      "Name": "EatingTable",
+      "DescriptionTextID": "끼니를 해결 할 수 있는 식탁",
+      "Label": "Structure",
+      "type": "Furniture",
+      "subType": "EatingTable",
+      "Sprite": "eatingTableSprite",
+      "maxHp": 100.0,
+      "WorkTime": 5.0,
+      "BuildTime": 60.0,
+      "Idle": null,
+      "WorkStart": null,
+      "Work": null,
+      "WorkEnd": null,
+      "buildItemId": [
+        400000
+      ],
+      "buildItemMass": [
+        10.0
+      ],
+      "supplyItemid": null,
+      "supplyItemMass": null,
+      "maxCapacity": 0.0,
+      "extraCellX": 0,
+      "extraCellY": 0,
+      "option": 0
+    },
+    {
+      "DataId": 102,
+      "Name": "Bed1",
+      "DescriptionTextID": "잠을 떼울 수 있는 침대",
+      "Label": "Structure",
+      "type": "Furniture",
+      "subType": "Bed",
+      "Sprite": "Bed1Sprite",
+      "maxHp": 100.0,
+      "WorkTime": 5.0,
+      "BuildTime": 60.0,
+      "Idle": null,
+      "WorkStart": null,
+      "Work": null,
+      "WorkEnd": null,
+      "buildItemId": [
+        400000
+      ],
+      "buildItemMass": [
+        10.0
+      ],
+      "supplyItemid": null,
+      "supplyItemMass": null,
+      "maxCapacity": 0.0,
+      "extraCellX": 0,
+      "extraCellY": 0,
+      "option": 0
+    },
+    {
+      "DataId": 103,
+      "Name": "Chest_normal",
+      "DescriptionTextID": "나무로 만든 상자",
+      "Label": "Structure",
+      "type": "Furniture",
+      "subType": "Chest",
+      "Sprite": "chest_normalSprite",
+      "maxHp": 100.0,
+      "WorkTime": 1.0,
+      "BuildTime": 60.0,
+      "Idle": "cabin chest idle",
+      "WorkStart": "cabin chest opening",
+      "Work": "cabin chest idle",
+      "WorkEnd": "cabin chest idle",
+      "buildItemId": [
+        400000
+      ],
+      "buildItemMass": [
+        10.0
+      ],
+      "supplyItemid": null,
+      "supplyItemMass": null,
+      "maxCapacity": 200.0,
+      "extraCellX": 0,
+      "extraCellY": 0,
+      "option": 0
+    },
+    {
+      "DataId": 104,
+      "Name": "Station1",
+      "DescriptionTextID": "초급 연구 스테이션",
+      "Label": "Structure",
+      "type": "Station",
+      "subType": "Station",
+      "Sprite": "Station1Sprite",
+      "maxHp": 100.0,
+      "WorkTime": 30.0,
+      "BuildTime": 10.0,
+      "Idle": "shrine buff available",
+      "WorkStart": "shrine buff available",
+      "Work": "shrine getting buff",
+      "WorkEnd": "surine buff available",
+      "buildItemId": [
+        400000
+      ],
+      "buildItemMass": [
+        10.0
+      ],
+      "supplyItemid": null,
+      "supplyItemMass": null,
+      "maxCapacity": 0.0,
+      "extraCellX": 0,
+      "extraCellY": 0,
+      "option": 0
+    },
+    {
+      "DataId": 105,
+      "Name": "PlowBowl",
+      "DescriptionTextID": "식물을 기를 수 있는 그릇",
+      "Label": "Structure",
+      "type": "PlowBowl",
+      "subType": "PlowBowl",
+      "Sprite": "PlowBowlSprite",
+      "maxHp": 100.0,
+      "WorkTime": 5.0,
+      "BuildTime": 10.0,
+      "Idle": null,
+      "WorkStart": null,
+      "Work": null,
+      "WorkEnd": null,
+      "buildItemId": [
+        400000
+      ],
+      "buildItemMass": [
+        10.0
+      ],
+      "supplyItemid": null,
+      "supplyItemMass": null,
+      "maxCapacity": 0.0,
+      "extraCellX": 0,
+      "extraCellY": 0,
+      "option": 1
+    }
+  ]
+}
